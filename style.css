@@ -1,0 +1,43 @@
+:root{
+--cor-hsl:hsl(210, 85%, 81%);
+--cor-backrgba:rgba(21, 68, 170, 0.9);
+--color: white;
+--cor-box:rgba(0, 0, 0, 0.2);
+--cor-backhsl:hsl(217, 83%, 65%);
+}
+body {
+margin: 0;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--cor-hsl);
+font-family: 'Poppins', sans-serif;
+}
+.cartao {
+background-color: var(--cor-backrgba);
+width: 350px;
+padding: 35px;
+border-radius: 15px;
+color: var(--color);
+box-shadow: 0 10px 25px var(--cor-box);
+}
+.cartao h1 {
+font-size: 32px;
+text-align: center;
+margin-bottom: 30px;
+}
+.email {
+text-align: left;
+}
+.telefone {
+text-align: center;
+}
+.endereco {
+text-align: right;
+}
+.destaque {
+background-color: var(--cor-backhsl);
+padding: 10px;
+border-radius: 8px;
+}
